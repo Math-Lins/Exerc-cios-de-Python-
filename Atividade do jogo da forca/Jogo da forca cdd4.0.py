@@ -1,4 +1,4 @@
-palavra_secreta = 'perfume'
+palavra_secreta = 'Ampola'
 digitado = []
 chances = 3
 print("_________________________________________")
