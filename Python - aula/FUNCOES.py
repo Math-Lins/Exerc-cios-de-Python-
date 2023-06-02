@@ -28,6 +28,17 @@ def texto(t):
             cont+=1
     return t, cont, textoi
 
+def test_primo(n):
+    if n == 1:
+        return n, "Não é primo"
+    elif n == 2:
+        return n, "É primo"
+    else:
+        for x in range(2,n):
+            if n%x==0:
+                return n,"Não é primo"
+        return n,"É primo"
+
 
 
 
